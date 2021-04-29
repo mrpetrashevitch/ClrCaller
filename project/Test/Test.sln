@@ -4,12 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{6AB7784D-20B6-4D40-92CA-116F1FA3E760}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F61DD610-F313-4EE9-8E6E-32DACF0B6B49} = {F61DD610-F313-4EE9-8E6E-32DACF0B6B49}
+		{4880B55B-D959-4A71-905A-803B811E4C78} = {4880B55B-D959-4A71-905A-803B811E4C78}
+		{7468FB95-83BF-4659-BF81-DF875761398D} = {7468FB95-83BF-4659-BF81-DF875761398D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLib", "..\CSharpLib\CSharpLib\CSharpLib.csproj", "{7468FB95-83BF-4659-BF81-DF875761398D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClrDll", "..\ClrDll\ClrDll\ClrDll.vcxproj", "{4880B55B-D959-4A71-905A-803B811E4C78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7468FB95-83BF-4659-BF81-DF875761398D} = {7468FB95-83BF-4659-BF81-DF875761398D}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppDll", "..\CppDll\CppDll\CppDll.vcxproj", "{F61DD610-F313-4EE9-8E6E-32DACF0B6B49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4880B55B-D959-4A71-905A-803B811E4C78} = {4880B55B-D959-4A71-905A-803B811E4C78}
+		{7468FB95-83BF-4659-BF81-DF875761398D} = {7468FB95-83BF-4659-BF81-DF875761398D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
