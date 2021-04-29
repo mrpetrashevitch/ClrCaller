@@ -157,6 +157,9 @@
   <ItemGroup>
     <ClCompile Include="..\source\dllmain.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\defs.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,6 +1,6 @@
 #pragma comment(lib,"ClrDll.lib")
 #include "../../ClrDll/include/ClrDll.h"
-#define DLLEXPORT __declspec(dllexport)
+#include "../include/defs.h"
 
 extern "C"
 {

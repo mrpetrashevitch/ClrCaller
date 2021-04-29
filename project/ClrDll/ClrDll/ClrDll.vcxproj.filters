@@ -14,6 +14,9 @@
     <ClInclude Include="..\include\ClrDll.h">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\defs.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\ClrDll.cpp">

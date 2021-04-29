@@ -1,5 +1,5 @@
 ﻿#pragma once
-#define DLLEXPORT __declspec(dllexport)
+#include "../include/defs.h"
 
 namespace ClrDll
 {

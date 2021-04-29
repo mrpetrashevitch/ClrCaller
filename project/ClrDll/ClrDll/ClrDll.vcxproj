@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\ClrDll.h" />
+    <ClInclude Include="..\include\defs.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\source\ClrDll.cpp" />
