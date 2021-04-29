@@ -5,7 +5,7 @@
 using namespace System::Runtime::InteropServices;
 using namespace CSharpLib;
 
-class ClrDll::CSharpClassPtr
+class ClrDll::CSharpClassPtr 
 {
 public: msclr::auto_gcroot<CSharpClass^> CSharpClass;
 };
